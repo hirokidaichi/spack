@@ -4,7 +4,7 @@ import (
     "bytes"
     "compress/gzip"
     "encoding/base64"
-    "github.com/hirokidaichi/go-static-gen/template"
+    "github.com/hirokidaichi/spack/template"
     "github.com/jessevdk/go-flags"
     "io/ioutil"
     "mime"

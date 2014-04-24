@@ -1,7 +1,7 @@
 package main
 
 import (
-    "github.com/hirokidaichi/go-static-gen/test/staticmap"
+    "github.com/hirokidaichi/spack/test/staticmap"
     "log"
     "net/http"
 )
