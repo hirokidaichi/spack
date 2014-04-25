@@ -14,7 +14,7 @@ import (
 )
 
 type SpackOption struct {
-    Root     string `short:"r" long:"root" require:"true" description:"target dir"`
+    Root     string `short:"r" long:"root" required:"true" description:"target dir"`
     AllowExt string `short:"e" long:"ext" default:"css,js,html,json,ico,png,jpeg,jpg" description:"allow ext like css,js,ico"`
     allowExt map[string]bool
 }
