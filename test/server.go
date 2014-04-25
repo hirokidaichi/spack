@@ -9,5 +9,4 @@ import (
 func main() {
     http.Handle(staticmap.NewStaticServer("/static/"))
     log.Fatal(http.ListenAndServe(":8080", nil))
-
 }
